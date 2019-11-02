@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Paster</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+
+  <textarea id="textbox" rows="2" cols="20" placeholder="Paste Here"></textarea></br>
+  <input type="submit" class="submit">
+  <button id="clearRecentButton">Clear Recent</button>
+  </br>
+  
+  <div class="tab">
+    <button id="recentButton" class="tablinks">Recent</button>
+    <button id="favoritesButton" class="tablinks">Favorites</button>
+  </div>
+
+  <div id="recentTab" class="tabcontent">
+    <table id="recentTable"></table>
+  </div>
+
+  <div id="favoritesTab" class="tabcontent">
+    <table id="favoritesTable"></table> 
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+  font-family: Arial;
+  font-size: 100%;
+}
+
+textarea {
+  width: 300px;
+  resize:vertical;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.textCell {
+  width: 250px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tr:hover .textCell {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.buttonCell {
+  max-width: 25px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    max-width: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 50%
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding-right:20px;
+    max-width: 300px;
+    height: 125px;
+    overflow-y: auto;
+}
+
+.rowButton {
+    padding: 4px;
+    border: none;
+    background: none;
+    background-size: 18px 18px;
+    height: 18px;  
+    width: 18px;
+}
+
+.fav {
+    background-image: url( "./icons/fav.png" );
+}
+
+.copy {
+    background-image: url( "./icons/copy.png" );
+}
+
+.del {
+    background-image: url( "./icons/del.png" );
+}
+
+#status {
+  /* avoid an excessively wide status text */
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+}

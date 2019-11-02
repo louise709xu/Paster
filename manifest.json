@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Paster",
+  "version": "0.0.0",
+  
+  "description": "Copy and Pasting Extension",
+  
+  "icons": {
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png" 
+  },
+
+  "browser_action": {
+    "default_icon": "./icons/icon.png",
+    "default_title": "Paster",
+    "default_popup": "popup.html"
+  },
+  
+  "permissions": [
+    "storage"
+  ],
+  
+  "background": {
+    "scripts": ["popup.js"]
+  },
+  
+  "web_accessible_resources": [
+    "css/style.css"
+  ]
+}

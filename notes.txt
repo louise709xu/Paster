@@ -1,0 +1,45 @@
+Lessons Learned:
+
+Prevent default behavior (stop table entries from disappearing)
+e.preventDefault();
+
+Placeholder tag for text box
+placeholder="Paste Here";
+
+Adding external css to chrome extension
+https://stackoverflow.com/questions/5452957/add-css-to-pages-through-a-css-file
+
+Prevent html & js injection
+https://stackoverflow.com/questions/20855482/preventing-html-and-script-injections-in-javascript
+
+No inline javascript!
+https://grantwinney.com/creating-my-first-google-chrome-extension-part-2
+
+CSS Multiple Classes
+https://stackoverflow.com/questions/558721/css-classes-subclasses
+
+Adding eventListeners to dynamically created elements
+https://toddmotto.com/attaching-event-handlers-to-dynamically-created-javascript-elements/
+
+Don't add event listener to individual table cells! 
+https://stackoverflow.com/questions/46341171/how-to-addeventlistener-to-table-cells
+
+Get parent node of element
+https://stackoverflow.com/questions/6856871/getting-the-parent-div-of-element
+
+Removing elements (weird how you have to indirectly remove an element through parentNode.removeChild())
+https://stackoverflow.com/questions/17650776/add-remove-html-inside-div-using-javascript
+
+Copy to clipboard
+https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+https://stackoverflow.com/questions/22581345/click-button-copy-to-clipboard-using-jquery
+
+Clear textbox
+https://stackoverflow.com/questions/1852061/clear-textbox-after-form-submit
+
+Chrome storage
+https://stackoverflow.com/questions/35524829/get-all-keysvalues-from-chrome-storage
+
+Methods of handling text overflow
+https://www.w3schools.com/css/css_tooltip.asp
+https://code.i-harness.com/en/q/538a37
